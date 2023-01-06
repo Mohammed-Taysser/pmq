@@ -1,4 +1,4 @@
-# `tube-info`
+# `pmq`
 
 A simple NPM package to get popular movie quotes.
 
@@ -14,7 +14,7 @@ A simple NPM package to get popular movie quotes.
 ```shell
 npm i pmq
 # Or
-Yarn add pmq
+yarn add pmq
 ```
 
 ## Usage 🚀
@@ -23,7 +23,7 @@ Yarn add pmq
 
 returns an array of objects, each containing **quote** and **movie**.
 
-```json
+```js
 ...
 {
   "quote": "Frankly, my dear, I don't give a damn.",
@@ -38,7 +38,7 @@ returns an array of objects, each containing **quote** and **movie**.
 
 returns a sorted object within the range of year **startYear** - **endYear**
 
-```json
+```js
 [
   {
     "quote": "Frankly, my dear, I don't give a damn.",
@@ -61,7 +61,7 @@ returns a sorted object within the range of year **startYear** - **endYear**
 
 returns an array (of length 'count') of non-duplicate random objects containing **quote** and **movie**.
 
-```json
+```js
 [
   {
     "quote": "Frankly, my dear, I don't give a damn.",
@@ -85,7 +85,7 @@ I used to think that my life was a tragedy. But now I realize, it's a comedy.
 
 returns an array with all quotes of MovieName movie, else returns empty.
 
-```json
+```js
 [
   {
     "quote": "Frankly, my dear, I don't give a damn.",
@@ -100,7 +100,7 @@ returns an array with all quotes of MovieName movie, else returns empty.
 
 returns an array with all quotes of type `movie` | `anime` | `tv`, else returns empty.
 
-```json
+```js
 [
   {
     "quote": "Frankly, my dear, I don't give a damn.",
