@@ -12,9 +12,9 @@ A simple NPM package to get popular movie quotes.
 ## Installation
 
 ```shell
-npm i pmq
+npm i js-pmq
 # Or
-yarn add pmq
+yarn add js-pmq
 ```
 
 ## Usage 🚀
@@ -122,7 +122,7 @@ returns an array with all quotes of type `movie` | `anime` | `tv`, else returns 
 ### Playground
 
 ```js
-const pmq = require("pmq");
+const pmq = require("js-pmq");
 
 console.log(pmq.getAll()); //returns an object with all available quotes.
 
