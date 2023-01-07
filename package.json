@@ -52,7 +52,7 @@
 	],
 	"license": "MIT",
 	"main": "dist/pmq.js",
-	"name": "pmq",
+	"name": "js-pmq",
 	"publishConfig": {
 		"ignore": [
 			"!dist/",
